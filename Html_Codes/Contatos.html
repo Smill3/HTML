@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: rgb(255, 234, 0);
+        }
+
+        .form-inline{
+            display: block ruby;
+        }
+        
+        body{
+            margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: green;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#83d383;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white; 
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="#news">News</a>
+        <a href="Contatos.html">Contact</a>
+        <a href="#about">About</a>
+      </div>
+
+    <section id="contato1">
+        <div id="formulario"
+            h3>contatos</h3>
+            <form name="formemail">
+                    Nome: <input type="text" name="nome" placeholder="Escreva seu nome"> <br>
+                    Email: <input type="text" name="email" placeholder="Escreva seu email"> <br>
+                    Escreva sua mensagem <br>
+                <textarea name="mensagem" cols="70" rows="7">
+
+                </textarea>
+                    <input type="submit" name="Enviar" value="Enviar">
+                    <input type="reset" name="Limpar" value="Limpar">
+            </form>
+        </div>
+    </section>
+
+    <section id="cadastro">
+          <h3>cadastro</h3>
+        <form name="cadastro">
+            Nome: <input type="text" name="nome" placeholder="Escreva seu nome"> <br>
+            Email: <input type="text" name="email" placeholder="Escreva seu Email"> <br>
+            Endereço: <input type="text" name="endereco" placeholder="Escreva seu nome"> <br>
+
+            Escolha seu Estado:<br>
+            <select name="Estado">
+                <option name="" value="" > Escolha Seu Estado </option>
+                <option name="Alagoas" value="AL" > Alagoas </option>
+                <option name="Distrito Federal" value="DF" > Distrito Federal </option>
+                <option name="Goiania" value="GO" > Goiania </option>
+                <option name="Minas Gerais" value="MG" > Minas Gerais </option>
+                <option name="Bahia" value="BA" > Bahia </option>
+
+            </select> <br> <br>
+
+            Sexo: <br>
+            <input type="radio" name="sexo" value="Maculino"> Maculino <br>
+            <input type="radio" name="sexo" value="Feminino"> Feminino <br>
+            <input type="radio" name="sexo" value="Outro"> Outro <br>
+            <input type="radio" name="sexo" value="Na"> Prefiro não dizer <br>
+            <br>
+
+            Como ficou sabendo do nosso Site?
+
+            <input type="checkbox" name="ficou sabendo" value="Revista"> Revista <br>
+            <input type="checkbox" name="ficou sabendo" value="Outros Sites"> Outros Sites <br>
+            <input type="checkbox" name="ficou sabendo" value="Redes"> Redes Sociais <br>
+            <input type="checkbox" name="ficou sabendo" value="Outros"> Outros <br>
+
+            Digite sua senhaL <br>
+            <input type="password" name="senha" placeholder="Digite sua senha"> Revista <br>
+            Repita Sua Senha:<br>
+            <input type="password" name="senha" placeholder="Repita sua senha"> Revista <br>
+
+            Enviar Arquivo<br>
+            <input type="file" name="arquivo" placeholder="Escolha seu arquivo"> Revista <br>
+            <br>
+            Digite sua Data de Nascimento:
+            <input type="date" name="Data"> <br><br>
+
+            <input type="submit" name="Cadastrar" value="Cadastrar">
+                <input type="reset" name="Limpar" value="Limpar">
+        </form>
+
+    </section>
+</body>
+</html>
