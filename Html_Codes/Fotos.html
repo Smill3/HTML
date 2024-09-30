@@ -1,66 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>.:Site do Christian:.</title>
-        <link rel="icon" href="https://media.tenor.com/0RRzrR7xGj4AAAAM/you-are-my-sunshine-lebron-james.gif">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-        <style>
-            h1 {
-                color: rgb(255, 234, 0);
-            }
-    
-            .form-inline{
-                display: block ruby;
-            }
-            
-            body{
-                margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .topnav {
-      overflow: hidden;
-      background-color: green;
-    }
-    
-    .topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-    
-    .topnav a:hover {
-      background-color:#83d383;
-      color: black;
-    }
-    
-    .topnav a.active {
-      background-color: #04AA6D;
-      color: white; 
-            }
-        </style>
-    
-    </head>
-
+<html lang="pt-BR">
+<head>
+    <!-- Metadados básicos do documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos - Meu Portfólio</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
+    <!-- Barra de Navegação -->
+    <nav>
+        <!-- Logo como link para a página inicial -->
+        <div class="logo">
+            <a href="index.html">
+                <!-- Substitua "logo.png" pelo nome do seu arquivo de logo -->
+                <img src="/Nova logo.svg" alt="Logo">
+            </a>
+            <!-- Se desejar adicionar um texto ao lado do logo, descomente a linha abaixo -->
+            <!-- <span>Seu Nome</span> -->
+        </div>
+        <!-- Lista de navegação -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="fotos.html">Fotos</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+            <li><a href="redes-sociais.html">Redes Sociais</a></li>
+        </ul>
+    </nav>
 
-    <div class="topnav">
-        <a class="active" href="Index.html">Home</a>
-        <a href="História.html">História</a>
-        <a href="Fotos.html">Fotos</a>
-        <a href="Contatos.html">Contatos</a>
-        <a href="Redes Sociais.html">Redes Sociais</a>
-      </div>
+    <!-- Seção Fotos -->
+    <section>
+        <h2>Fotos</h2>
+        <!-- Galeria de fotos -->
+        <div class="gallery">
+            <!-- Substitua os caminhos das imagens pelos seus próprios -->
+            <img src="images/foto1.jpg" alt="Descrição da Foto 1">
+            <img src="images/foto2.jpg" alt="Descrição da Foto 2">
+            <img src="images/foto3.jpg" alt="Descrição da Foto 3">
+            <!-- Adicione mais imagens conforme necessário -->
+        </div>
+    </section>
 
-    
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Christian de Carvalho Almeida Santos. Todos os direitos reservados.</p>
+    </footer>
 </body>
-
-
 </html>
